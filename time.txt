@@ -1,0 +1,41 @@
+/**** Old Code Performance -- 8 cores - CD -- 22 cores Mover ****/
+Total Iteration Time:   398.470955 on node: 0 
+Charge Deposition Time: 299.177858 on node: 0 
+Charge Deposition computation Time: 298.280767 on node: 0 
+Mover Time:             94.207640 on node: 0 
+
+
+
+/**** New Code Performance - CPU ****/
+Charge Deposition time: 106.907 seconds
+Mover time: 126.726 seconds
+Cleanup time: 13.0224 seconds
+Total execution time: 246.655 seconds
+
+
+/**** New Code Performance - GPU ****/
+Charge Deposition time: 9.94892 seconds
+Mover time: 12.6152 seconds
+Cleanup time: 2.33725 seconds
+Total execution time: 24.9014 seconds
+
+
+/**** New Code Performance - GPU - with Poisson Solver ****/
+Charge Deposition time: 7.9687 seconds
+Mover time: 11.1688 seconds
+Particle Compaction time: 2.25355 seconds
+Map Cleanup time: 3.59732 seconds
+Poisson Solver time: 5.22768 seconds
+Print time: 0.0727236 seconds
+Total execution time: 30.2887 seconds
+
+
+/**** New Code Performance - GPU - with Poisson Solver and Compaction ****/
+Charge Deposition time: 7.99421 seconds
+Mover time: 11.2801 seconds
+Particle Compaction time: 2.14102 seconds
+Map Cleanup time: 3.59902 seconds
+Poisson Solver time: 5.34447 seconds
+Print time: 0.0728491 seconds
+Total execution time: 30.4317 seconds
+

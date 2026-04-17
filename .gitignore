@@ -1,0 +1,19 @@
+# Build and Executables
+build/
+out/
+compact
+*.out
+
+# Data / Output Files
+*.bin
+*.log
+*.csv
+*.png
+*.DAT
+!M_PICDAT.DAT
+!XSEC.DAT
+
+# Python Caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
